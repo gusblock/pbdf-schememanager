@@ -3,9 +3,11 @@
   <Name>
     <en>Nuts</en>
     <nl>Nuts</nl>
+    <de>Nuts</de>
   </Name>
   <ShortName>
     <en>Nuts</en>
+    <nl>Nuts</nl>
     <nl>Nuts</nl>
   </ShortName>
   <SchemeManager>pbdf</SchemeManager>

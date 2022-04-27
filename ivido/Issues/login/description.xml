@@ -2,10 +2,12 @@
 	<Name>
 		<en>Ivido Login</en>
 		<nl>Ivido Login</nl>
+		<de>Ivido Login</de>
 	</Name>
 	<ShortName>
 		<en>Ivido Login</en>
 		<nl>Ivido Login</nl>
+		<de>Ivido Login</de>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>ivido</IssuerID>
@@ -13,10 +15,12 @@
 	<Description>
 		<en>Attributen benodigd voor het inloggen bij Ivido</en>
 		<nl>Attributes required for logging in at Ivido</nl>
+		<de>Attribute werden für das Einloggen bei Ivido benötigt </de>
 	</Description>
 	<IssueURL>
 		<en>https://platform.ivido.nl/auth/irma/refresh_attribute.php</en>
 		<nl>https://platform.ivido.nl/auth/irma/refresh_attribute.php</nl>
+		<de>https://platform.ivido.nl/auth/irma/refresh_attribute.php</de>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
@@ -29,10 +33,12 @@
 			<Name>
 				<en>Identifier</en>
 				<nl>Identificatiecode</nl>
+				<de>Identifikationscode</de>
 			</Name>
 			<Description>
 				<en>Unique identifier for Ivido</en>
 				<nl>Unieke identificatiecode voor Ivido</nl>
+				<de>Unikater Identifikationscode für Ivido</de>
 			</Description>
 		</Attribute>
 	</Attributes>

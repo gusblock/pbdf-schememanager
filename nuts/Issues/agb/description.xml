@@ -2,10 +2,12 @@
 	<Name>
 		<en>AGB code</en>
 		<nl>AGB-code</nl>
+		<de>AGB-Code</de>
 	</Name>
 	<ShortName>
 		<en>AGB</en>
 		<nl>AGB</nl>
+		<de>AGB</de>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>nuts</IssuerID>
@@ -13,10 +15,12 @@
 	<Description>
 		<en>An AGB code (in Dutch: Algemeen GegevensBeheer code) is a Dutch national code system which uniquely identifies a care provider. Care providers are registered in a national database with such a code. The database is maintained by Vektis</en>
 		<nl>Een Algemeen GegevensBeheer code (kort: AGB-code) is een landelijke code waarmee een zorgaanbieder kan worden herkend. Met deze unieke code staan zorgaanbieders geregistreerd in een landelijke database. Dit systeem wordt beheerd door Vektis</nl>
+		<de>Ein AGB-Code (auf Niederländisch: Algemeen GegevensBeheer-Code) ist ein niederländisches nationales Codesystem, das einen Pflegeanbieter eindeutig identifiziert. Pflegeanbieter werden mit einem solchen Code in einer nationalen Datenbank registriert. Die Datenbank wird von Vektis verwaltet</de>
 	</Description>
 	<IssueURL>
 		<en>https://irma-agb.nuts.nl/</en>
 		<nl>https://irma-agb.nuts.nl/</nl>
+		<de>https://irma-agb.nuts.nl/</de>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
@@ -27,22 +31,27 @@
 	<Category>
 		<en>Healthcare</en>
 		<nl>Zorg</nl>
+		<de>Pflege</de>
 	</Category>
 	<FAQIntro>
 		<en>Add your AGB code to your IRMA app.</en>
 		<nl>Laad je AGB-code in je IRMA-app.</nl>
+		<de>Fügt Ihren AGB-COde der IRMA-App hinzu</de>
 	</FAQIntro>
 	<FAQPurpose>
 		<en>With your AGB code in your IRMA app, you can prove what your healthcare provider code in the AGB registry is.</en>
 		<nl>Met jouw AGB-code in de IRMA-app kun je bewijzen wat je code is als zorgverlener in het AGB-register.</nl>
+		<de>Mit Ihrem AGB-Code in Ihrer IRMA-App können Sie nachweisen, wie der Code Ihres Gesundheitsdienstleisters im AGB-Register lautet.</de>
 	</FAQPurpose>
 	<FAQContent>
 		<en>You will add the following data:\n• AGB code.</en>
 		<nl>Je laadt de volgende gegevens:\n• AGB-code.</nl>
+		<de>Sie fügen die folgenden Daten hinzu:\n• AGB-Code.</de>
 	</FAQContent>
 	<FAQHowto>
 		<en>In case you are a healthcare professional registered in the Netherlands, you can load your AGB code into your IRMA app. But first, you need to load your personal data, stemming from the Dutch population registry. Assuming you already have these personal data in your IRMA app, complete the following steps.\n1. Reveal your initials, surname and date of birth to the Nuts Foundation via IRMA.\n2. Enter your own AGB code manually.\n3. Confirm that you wish to add your AGB code to your IRMA app. After verifying your data in the AGB registry, the Nuts Foundation copies your AGB code into your IRMA app.\n\nYou now receive a card with your AGB code.</en>
 		<nl>Als je een geregistreerde zorgverlener bent kun je je AGB-code in je IRMA app laden. Maar eerst moeten je persoonsgegevens uit het Basisregister Persoonsgegevens (BRP) al in de IRMA app geladen zijn. Als dat zo is, doorloop je de volgende stappen voor het laden van de AGB-code.\n1. Onthul je initialen, achternaam en geboortedatum aan de stichting Nuts via IRMA.\n2. Vul je AGB-code met de hand in.\n3. Bevestig je bedoeling om je AGB-code in je IRMA-app te laden. Na controle in het AGB-register voegt de stichting Nuts je AGB-code toe in je IRMA-app.\n\nJe ontvangt nu een kaartje met je AGB-code.</nl>
+		<de>Falls Sie ein in den Niederlanden registrierter Angehöriger der Gesundheitsberufe sind, können Sie Ihren AGB-Code in Ihre IRMA-App laden. Aber zuerst müssen Sie Ihre persönlichen Daten laden, die aus dem niederländischen Bevölkerungsregister stammen. Angenommen, Sie haben diese persönlichen Daten bereits in Ihrer IRMA-App, führen Sie die folgenden Schritte aus.\n1. Geben Sie Ihre Initialen, Ihren Nachnamen und Ihr Geburtsdatum über IRMA an die Nuts Foundation weiter.\n2. Geben Sie Ihren eigenen AGB-Code manuell ein.\n3. Bestätigen Sie, dass Sie Ihren AGB-Code zu Ihrer IRMA-App hinzufügen möchten. Nach der Verifizierung Ihrer Daten im AGB-Register kopiert die Nuts Foundation Ihren AGB-Code in Ihre IRMA-App.\n\nSie erhalten nun eine Karte mit Ihrem AGB-Code.</de>
 	</FAQHowto>
 
 	<Attributes>
@@ -50,10 +59,12 @@
 			<Name>
 				<en>AGB-code</en>
 				<nl>AGB-code</nl>
+				<de>AGB-Code</de>
 			</Name>
 			<Description>
 				<en>Uniquely identifying code for individual healthcare professional</en>
 				<nl>Uniek identificerende code van individuele zorgverleners</nl>
+				<de>Eindeutiger Identifizierungscode für eine medizinische Fachkraft</de>
 			</Description>
 		</Attribute>
 	</Attributes>

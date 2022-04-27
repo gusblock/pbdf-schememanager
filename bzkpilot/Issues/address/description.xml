@@ -2,10 +2,12 @@
 	<Name>
 		<en>Address</en>
 		<nl>Adres</nl>
+		<de>Adresse</de>
 	</Name>
 	<ShortName>
 		<en>Address</en>
 		<nl>Adres</nl>
+		<de>Adresse</de>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>bzkpilot</IssuerID>
@@ -13,10 +15,12 @@
 	<Description>
 		<en>Your home address, from the Dutch population register</en>
 		<nl>Je adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<de>Ihre Heimatadresse, aus dem niederländischen Melderegister</de>
 	</Description>
 	<IssueURL>
 		<en>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</en>
 		<nl>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</nl>
+		<de>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</de>
 	</IssueURL>
 	<IsULIssueURL>true</IsULIssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
@@ -29,22 +33,27 @@
 	<Category>
 		<en>Personal</en>
 		<nl>Persoonlijk</nl>
+		<de>Persönlich</de>
 	</Category>
 	<FAQIntro>
 		<en>Add your address from the Dutch population register (BRP) to your IRMA app.</en>
 		<nl>Laad je adres uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
+		<de>Fügen Sie Ihre Adresse aus dem niederländischen Melderegister (BRP) zu Ihrer IRMA-App hinzu.</de>
 	</FAQIntro>
 	<FAQPurpose>
 		<en>With your home address in your IRMA app, you can give information about where you live. For instance, you can prove in which municipality you live without disclosing your exact address.</en>
 		<nl>Met jouw woonadres in de IRMA-app kun je informatie geven over waar je woont. Dan kun je bijvoorbeeld bewijzen in welke gemeente je woont zonder je exacte adres te onthullen.</nl>
+		<de>Mit Ihrer Adresse in der IRMA-App, können Sie Informationen darüber wo Sie wohnen geben. Damit können Sie zum Beispiel angeben, in welcher Gemeinde Sie wohnen, ohne Ihre exakte Adresse angeben zu müssen.</de>
 	</FAQPurpose>
 	<FAQContent>
 		<en>You will add the following data:\n• street,\n• street number,\n• postal code,\n• city,\n• municipality.</en>
 		<nl>Je laadt de volgende gegevens:\n• straat,\n• huisnummer,\n• postcode,\n• woonplaats,\n• gemeente.</nl>
+		<de>Sie fügen die folgenden Daten hinzu:\n• Straße,\n• Straßennummer,\n• PLZ,\n• Stadt,\n• Gemeinde</de>
 	</FAQContent>
 	<FAQHowto>
 		<en>Complete the following steps.\n1. Open the Sesame ID app and enter your PIN code.\n2. In the Sesame app, choose 'Sharing data' and select 'IRMA'.\n3. Confirm that you wish to add your data to your IRMA app. The Sesame ID app copies your data into your IRMA-app.\n\nYou now receive two cards: one card with your home address and automatically also one card with your personal details.</en>
 		<nl>Doorloop de volgende stappen.\n1. Open de Sesam ID-app en voer je pincode in.\n2. Kies in de Sesam app voor 'Gegevens delen' en selecteer 'IRMA'.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app. De Sesam ID-app voegt je gegevens toe in je IRMA-app.\n\nJe ontvangt nu nu twee kaartjes: een kaartje met je woonadres, en automatisch ook een kaartje met je persoonsgegevens.</nl>
+		<de>Führen Sie die folgenden Schritte aus.\n1. Öffnen Sie die Sesame ID-App und füllen Sie den PIN ein.\n2. In der Sesame-App, wählen Sie 'Sharing data' und danach 'IRMA'.\n3. Bestätigen Sie das hinzufügen Ihrer Daten zur IRMA-App. Die Sesame ID-App kopiert Ihre Daten nun in die IRMA-App.\n\nSie erhalten nun zwei Karten: eine Karte mit Ihrer Heimatadresse und eine weiter mit Ihren persönlichen Daten.</de>
 	</FAQHowto>
 
 	<Attributes>
@@ -52,50 +61,60 @@
 			<Name>
 				<en>Street</en>
 				<nl>Straat</nl>
+				<de>Straße</de>
 			</Name>
 			<Description>
 				<en>Your street</en>
 				<nl>Je straat</nl>
+				<de>Ihre Straße</de>
 			</Description>
 		</Attribute>
 		<Attribute id="houseNumber" optional="true" displayIndex="1">
 			<Name>
 				<en>House number</en>
 				<nl>Huisnummer</nl>
+				<de>Hausnummber</de>
 			</Name>
 			<Description>
 				<en>Your house number, with possible extension</en>
 				<nl>Je huisnummer, met eventuele toevoeging</nl>
+				<de>Ihre Hausnummer, inklusive eventuellem Adresszusatz</de>
 			</Description>
 		</Attribute>
 		<Attribute id="zipcode" displayIndex="2">
 			<Name>
 				<en>Postal code</en>
 				<nl>Postcode</nl>
+				<de>PLZ</de>
 			</Name>
 			<Description>
 				<en>Your postal code</en>
 				<nl>Je postcode</nl>
+				<de>Ihre Postleitzahl</de>
 			</Description>
 		</Attribute>
 		<Attribute id="city" displayIndex="3">
 			<Name>
 				<en>City</en>
 				<nl>Woonplaats</nl>
+				<de>Wohnort</de>
 			</Name>
 			<Description>
 				<en>Your city of residence</en>
 				<nl>Je woonplaats</nl>
+				<de>Ihr Wohnort</de>
 			</Description>
 		</Attribute>
 		<Attribute id="municipality" displayIndex="4">
 			<Name>
 				<en>Municipality</en>
 				<nl>Gemeente</nl>
+				<de>Gemeinde</de>
 			</Name>
 			<Description>
 				<en>Your municipality</en>
 				<nl>Je gemeente</nl>
+				<de>Ihre Gemeinde</de>
 			</Description>
 		</Attribute>
 	</Attributes>

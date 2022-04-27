@@ -2,10 +2,12 @@
 	<Name>
 		<en>Personal data</en>
 		<nl>Persoonsgegevens</nl>
+		<de>Personaldaten</de>
 	</Name>
 	<ShortName>
 		<en>Personal data</en>
 		<nl>Persoonsgegevens</nl>
+		<de>Personaldaten</de>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>gemeente</IssuerID>
@@ -13,10 +15,12 @@
 	<Description>
 		<en>Your personal data, from the Dutch population register (BRP)</en>
 		<nl>Je persoonsgegevens, afkomstig uit de Basisregistratie Persoonsgegevens (BRP)</nl>
+		<de>Ihre persönlichen Daten, aus dem niederländischen Bevölkerungsregister (BRP)</de>
 	</Description>
 	<IssueURL>
 		<en>https://services.nijmegen.nl/irma/gemeente/start</en>
 		<nl>https://services.nijmegen.nl/irma/gemeente/start</nl>
+		<de>https://services.nijmegen.nl/irma/gemeente/start</de>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
@@ -27,22 +31,27 @@
 	<Category>
 		<en>Personal</en>
 		<nl>Persoonlijk</nl>
+		<de>Persönlich</de>
 	</Category>
 	<FAQIntro>
 		<en>Add your personal data from the Dutch population register (BRP) to your IRMA app.</en>
 		<nl>Laad je persoonsgegevens uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
+		<de>Persönlich</de>
 	</FAQIntro>
 	<FAQPurpose>
 		<en>With your personal data in your IRMA app, you can make yourself known online. For instance, you can disclose your name or prove that you are over 18 years of age (without revealing your date of birth).</en>
 		<nl>Met jouw persoonsgegevens in de IRMA-app kun jij jezelf online bekendmaken. Dan kun je bijvoorbeeld je naam tonen of bewijzen dat je ouder bent dan 18 jaar (zonder je geboortedatum te onthullen).</nl>
+		<de>Fügen Sie Ihre persönlichen Daten aus dem niederländischen Melderegister (BRP) zu Ihrer IRMA-App hinzu.</de>
 	</FAQPurpose>
 	<FAQContent>
 		<en>You will add the following data:\n• full name,\n• initials,\n• surname,\n• gender,\n• date of birth,\n• age (older than 12, 16, 18, 21 or 65),\n• nationality,\n• country of birth,\n• citizen registration number (BSN).</en>
 		<nl>Je laadt de volgende gegevens:\n• volledige naam,\n• voorletters,\n• voornamen,\n• achternaam,\n• geslachtsnaam,\n• geslacht,\n• geboortedatum,\n• leeftijd (ouder dan 12, 16, 18, 21 of 65),\n• nationaliteit,\n• geboorteland,\n• burgerservicenummer (BSN).</nl>
+		<de>Sie fügen folgende Daten hinzu: \n- vollständiger Name, \n- Initialen, \n- Nachname, \n- Geschlecht, \n- Geburtsdatum, \n- Alter (älter als 12, 16, 18, 21 oder 65), \n- Staatsangehörigkeit, \n- Geburtsland, \n- Bürgernummer (BSN).</de>
 	</FAQContent>
 	<FAQHowto>
 		<en>If you live in the Netherlands, you can add your home address from the Dutch population register (BRP) to your IRMA app. You need your DigiD for this.\n Complete the following steps.\n1. Log in with your DigiD, at the municipality of Nijmegen (it provides this service to everyone in the Netherlands; you don't need to live in Nijmegen).\n2. The municipality of Nijmegen copies your data into your IRMA app.\n\nYou now receive two cards: one card with your personal data and automatically also one card with your home address.</en>
 		<nl>Als je in Nederland woont, kun je je persoonsgegevens uit de basisregistratie personen (BRP) toevoegen in je IRMA app.\nJe hebt je DigiD daarvoor nodig. \n\nDoorloop de volgende stappen.\n1. Log in met je DigiD bij de gemeente Nijmegen (dit werkt voor iedereen in Nederland, niet alleen voor inwoners van Nijmegen).\n2. De gemeente Nijmegen voegt je gegevens toe in je IRMA-app.\n\nJe ontvangt nu nu twee kaartjes: een kaartje met je persoonsgegevens, en automatisch ook een kaartje met je woonadres.</nl>
+		<de>Wenn Sie in den Niederlanden wohnen, können Sie Ihre Heimatadresse aus dem niederländischen Melderegister (BRP) zu Ihrer IRMA-App hinzufügen. Dazu benötigen Sie Ihren DigiD.\n Führen Sie die folgenden Schritte aus.\n1. Melden Sie sich mit Ihrem DigiD bei der Gemeinde Nijmegen an (sie bietet diesen Service für jeden in den Niederlanden an; Sie müssen nicht in Nijmegen wohnen).\n2. Die Gemeinde Nijmegen kopiert Ihre Daten in Ihre IRMA-App.\n\nSie erhalten nun zwei Karten: eine Karte mit Ihren persönlichen Daten und automatisch auch eine Karte mit Ihrer Wohnadresse.</de>
 	</FAQHowto>
 
 	<Attributes>
@@ -50,180 +59,226 @@
 			<Name>
 				<en>Initials</en>
 				<nl>Voorletters</nl>
+				<de>Initialen</de>
 			</Name>
 			<Description>
 				<en>Your initials, abbreviating your first names</en>
 				<nl>Je voorletters, als afkorting van je voornamen</nl>
+				<de>Ihre Initialen, Abkürzung des Vornamens</de>
 			</Description>
 		</Attribute>
 		<Attribute id="firstnames" displayIndex="2">
 			<Name>
 				<en>First names</en>
 				<nl>Voornamen</nl>
+				<de>Vorname</de>
 			</Name>
 			<Description>
 				<en>Your first names</en>
 				<nl>Je voornamen</nl>
+				<de>Ihr Vorname</de>
 			</Description>
 		</Attribute>
 		<Attribute id="prefix" displayIndex="3">
 			<Name>
 				<en>Prefix</en>
 				<nl>Voorvoegsel</nl>
+				<de>Präfix</de>
 			</Name>
 			<Description>
 				<en>Prefix of your family name</en>
 				<nl>Voorvoegsel van je achternaam</nl>
+				<de>Der Präfix Ihres Nachnamens</de>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname" displayIndex="5">
 			<Name>
 				<en>Family name</en>
 				<nl>Geslachtsnaam</nl>
+				<de>Nachnamen</de>
 			</Name>
 			<Description>
-				<en>Your family name, as given to you at birth</en>
+<en>Your family name, as given to you at birth</en>
 				<nl>Je achternaam, zoals bij je geboorte toegekend</nl>
+				<de>Ihr Nachname, wie zur Geburt gegeben</de>
 			</Description>
 		</Attribute>
 		<Attribute id="fullname" optional="true" displayIndex="0">
 			<Name>
 				<en>Full name</en>
 				<nl>Volledige naam</nl>
+				<de>Vollständiger Name</de>
 			</Name>
 			<Description>
 				<en>Your full name</en>
 				<nl>Je volledige naam</nl>
+				<de>Ihr vollständiger Name</de>
 			</Description>
 		</Attribute>
 		<Attribute id="gender" displayIndex="6">
 			<Name>
 				<en>Gender</en>
 				<nl>Geslacht</nl>
+				<de>Geschlecht</de>
 			</Name>
 			<Description>
 				<en>Your gender</en>
 				<nl>Je geslacht</nl>
+				<de>Ihr Geschlecht</de>
 			</Description>
 		</Attribute>
 		<Attribute id="nationality" optional="true" displayIndex="13" displayHint="yesno">
 			<Name>
 				<en>Dutch nationality</en>
 				<nl>Nederlandse nationaliteit</nl>
+				<de>Niederländische Nationalität</de>
 			</Name>
 			<Description>
 				<en>Whether you have the dutch nationality</en>
 				<nl>Of je de Nederlandse nationaliteit bezit</nl>
+				<de>Ob Sie die niederländische Staatsbürgerschaft besitzen</de>
 			</Description>
 		</Attribute>
 		<Attribute id="surname" displayIndex="4">
 			<Name>
 				<en>Surname</en>
 				<nl>Achternaam</nl>
+				<de>Nachname</de>
 			</Name>
 			<Description>
 				<en>Your full family name: your family name or (a combination with) the name of your partner</en>
 				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) de naam van je partner</nl>
+				<de>Ihr voller Familienname: Ihr Nachname oder (eine Kombination mit) dem Namen Ihres Partners</de>
 			</Description>
 		</Attribute>
 		<Attribute id="dateofbirth" displayIndex="7">
 			<Name>
 				<en>Date of birth</en>
 				<nl>Geboortedatum</nl>
+				<de>Geburtsdatum</de>
 			</Name>
 			<Description>
 				<en>Your date of birth</en>
 				<nl>Je geboortedatum</nl>
+				<de>Ihr Geburtsdatum</de>
 			</Description>
 		</Attribute>
 		<Attribute id="cityofbirth" displayIndex="14">
 			<Name>
 				<en>City of birth</en>
 				<nl>Geboorteplaats</nl>
+				<de>Geburtsort</de>
 			</Name>
 			<Description>
 				<en>Your city of birth</en>
 				<nl>Je geboorteplaats</nl>
+				<de>Die Stadt in der Sie geboren wurden</de>
 			</Description>
 		</Attribute>
 		<Attribute id="countryofbirth" displayIndex="15">
 			<Name>
 				<en>Country of birth</en>
 				<nl>Geboorteland</nl>
+				<de>Geburtsland</de>
 			</Name>
 			<Description>
 				<en>Your country of birth</en>
 				<nl>Je geboorteland</nl>
+				<de>Ihr Geburtsland</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over12" displayIndex="8" displayHint="yesno">
 			<Name>
 				<en>Over 12</en>
 				<nl>Ouder dan 12</nl>
+				<de>Älter als 12</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 12</en>
 				<nl>Of je ouder dan 12 bent</nl>
+				<de>Ob Sie älter als 12 Jahre sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over16" displayIndex="9" displayHint="yesno">
 			<Name>
 				<en>Over 16</en>
 				<nl>Ouder dan 16</nl>
+				<de>Älter als 16</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 16</en>
 				<nl>Of je ouder dan 16 bent</nl>
+				<de>Ob Sie älter als 16 sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over18" displayIndex="10" displayHint="yesno">
 			<Name>
 				<en>Over 18</en>
 				<nl>Ouder dan 18</nl>
+				<de>Älter als 18</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 18</en>
 				<nl>Of je ouder dan 18 bent</nl>
+				<de>Ob Sie älter als 18 sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over21" displayIndex="11" displayHint="yesno">
 			<Name>
 				<en>Over 21</en>
 				<nl>Ouder dan 21</nl>
+				<de>Älter als 21</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 21</en>
 				<nl>Of je ouder dan 21 bent</nl>
+				<de>Ob Sie älter als 21 sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over65" displayIndex="12" displayHint="yesno">
 			<Name>
+			<Name>
 				<en>Over 65</en>
 				<nl>Ouder dan 65</nl>
+				<de>Älter als 65</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 65</en>
 				<nl>Of je ouder dan 65 bent</nl>
+				<de>Ob Sie älter als 65 sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="bsn" displayIndex="16">
 			<Name>
 				<en>BSN</en>
 				<nl>BSN</nl>
+				<de>BSN</de>
 			</Name>
 			<Description>
-				<en>Your Dutch Citizen service number (BSN)</en>
+				<en>Your Dutch Citizen registration number (BSN)</en>
 				<nl>Je Burgerservicenummer (BSN)</nl>
+				<de>Ihre Bürgerservicenummer (BSN)</de>
 			</Description>
 		</Attribute>
 		<Attribute id="digidlevel" displayIndex="17">
 			<Name>
+<<<<<<< Updated upstream
 				<en>Assurance level</en>
 				<nl>Betrouwbaarheidsniveau</nl>
 			</Name>
 			<Description>
 				<en>The assurance level with which your identity was verified</en>
 				<nl>Het betrouwbaarheidsniveau waarmee je identiteit is vastgesteld</nl>
+=======
+				<en>DigiD assurance level</en>
+				<nl>DigiD betrouwbaarheidsniveau</nl>
+				<de>DigiD´-Sicherheitsstufe</de>
+			</Name>
+			<Description>
+				<en>The DigiD assurance level with which your identity was verified</en>
+				<nl>Het DigiD betrouwbaarheidsniveau waarmee je identiteit is vastgesteld</nl>
+				<de>Die DigiD-Sicherheitsstufe, mit der Ihre Identität überprüft wurde</de>
+>>>>>>> Stashed changes
 			</Description>
 		</Attribute>
 	</Attributes>

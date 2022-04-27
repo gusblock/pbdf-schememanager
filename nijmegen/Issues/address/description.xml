@@ -23,18 +23,21 @@
 	<Attributes>
 		<Attribute id="street">
 			<Name>
-				<en>Street</en>
-				<nl>Straat</nl>
+						<en>Personal</en>
+		<nl>Persoonlijk</nl>
+		<de>Persönlich</de>
 			</Name>
 			<Description>
-				<en>Your street</en>
-				<nl>Je straat</nl>
+						<en>Personal</en>
+		<nl>Persoonlijk</nl>
+		<de>Persönlich</de>
 			</Description>
 		</Attribute>
 		<Attribute id="houseNumber" optional="true">
 			<Name>
 				<en>House number</en>
 				<nl>Huisnummer</nl>
+				<de>Hausnummber</de>
 			</Name>
 			<Description>
 				<en>Your house number, letter and/or addition</en>
@@ -55,20 +58,24 @@
 			<Name>
 				<en>Municipality</en>
 				<nl>Gemeente</nl>
+				<de>Gemeinde</de>
 			</Name>
 			<Description>
 				<en>Your municipality</en>
 				<nl>Je gemeente</nl>
+				<de>Ihre Gemeinde</de>
 			</Description>
 		</Attribute>
 		<Attribute id="city">
 			<Name>
 				<en>City</en>
 				<nl>Woonplaats</nl>
+				<de>Wohnort</de>
 			</Name>
 			<Description>
 				<en>Your city of residence</en>
 				<nl>Je woonplaats</nl>
+				<de>Ihr Wohnort</de>
 			</Description>
 		</Attribute>
 	</Attributes>

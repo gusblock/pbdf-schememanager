@@ -3,10 +3,12 @@
 	<ShortName>
 		<en>Ivido</en>
 		<nl>Ivido</nl>
+		<de>Ivido</de>
 	</ShortName>
 	<Name>
 		<en>Ivido</en>
 		<nl>Ivido</nl>
+		<de>Ivido</de>
 	</Name>
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress>https://ivido.nl</ContactAddress>

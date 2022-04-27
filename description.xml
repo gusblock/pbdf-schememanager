@@ -4,10 +4,12 @@
 	<Name>
 		<en>Privacy by Design Foundation</en>
 		<nl>Stichting Privacy by Design</nl>
+		<de>Stiftung Privacy by Design</de>
 	</Name>
 	<Description>
 		<en>The Privacy by Design Foundation develops the IRMA app and the IRMA infrastructure, and issues basic attributes for free</en>
 		<nl>De stichting Privacy by Design ontwikkelt de IRMA app en de IRMA infrastructuur, en geeft gratis een set basisattributen uit</nl>
+		<de>Die Stiftung Privacy by Design entwichelt die IRMA App und die IRMA Infrastruktur. Desweiteren gibt Sie ein kostenloses Set Basisattribute aus</de>
 	</Description>
 	<MinimumAppVersion>
 		<Android>49</Android>

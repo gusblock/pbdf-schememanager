@@ -2,10 +2,12 @@
 	<Name>
 		<en>Home address</en>
 		<nl>Woonadres</nl>
+		<de>Heimatadresse</de>
 	</Name>
 	<ShortName>
 		<en>Address</en>
 		<nl>Adres</nl>
+		<de>Adresse</de>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>gemeente</IssuerID>
@@ -13,10 +15,12 @@
 	<Description>
 		<en>Your home address, from the Dutch population register</en>
 		<nl>Je woonadres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<de>Ihre Heimatadresse, aus dem niederländischen Bevölkerungsregister</de>
 	</Description>
 	<IssueURL>
 		<en>https://services.nijmegen.nl/irma/gemeente/start</en>
 		<nl>https://services.nijmegen.nl/irma/gemeente/start</nl>
+		<de>https://services.nijmegen.nl/irma/gemeente/start</de>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
@@ -27,72 +31,87 @@
 	<Category>
 		<en>Personal</en>
 		<nl>Persoonlijk</nl>
+		<de>Persönlich</de>
 	</Category>
 	<FAQIntro>
 		<en>Add your home address from the Dutch population register (BRP) to your IRMA app.</en>
 		<nl>Laad je woonadres uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
+		<de>Fügen Sie Ihre Heimatadresse aus dem niederländischen Melderegister (BRP) zu Ihrer IRMA-App hinzu.</de>
 	</FAQIntro>
 	<FAQPurpose>
 		<en>With your home address in your IRMA app, you can give information about where you live. For instance, you can prove in which municipality you live without disclosing your exact address.</en>
 		<nl>Met jouw woonadres in de IRMA-app kun je informatie geven over waar je woont. Dan kun je bijvoorbeeld bewijzen in welke gemeente je woont zonder je exacte adres te onthullen.</nl>	
+		<de>Mit Ihrer Heimatadresse in Ihrer IRMA-App können Sie Angaben zu Ihrem Wohnort machen. So können Sie zum Beispiel nachweisen, in welcher Gemeinde Sie wohnen, ohne Ihre genaue Adresse offenbaren zu müssen.</de>
 	</FAQPurpose>
 	<FAQContent>
 		<en>You will add the following data:\n• street,\n• street number,\n• postal code,\n• city,\n• municipality.</en>
 		<nl>Je laadt de volgende gegevens:\n• straat,\n• huisnummer,\n• postcode,\n• woonplaats,\n• gemeente.</nl>
+		<de>Sie fügen die folgenden Daten hinzu: \n- Straße, \n- Hausnummer, \n- Postleitzahl, \n- Wohnort, \n- Gemeinde.</de>
 	</FAQContent>
 	<FAQHowto>
 		<en>If you live in the Netherlands, you can add your home address from the Dutch population register (BRP) to your IRMA app. You need your DigiD for this.\n Complete the following steps.\n1. Log in with your DigiD, at the municipality of Nijmegen (it provides this service to everyone in the Netherlands; you don't need to live in Nijmegen).\n2. The municipality of Nijmegen copies your data into your IRMA app.\n\nYou now receive two cards: one card with your home address and automatically also one card with your personal details.</en>
 		<nl>Als je in Nederland woont, kun je je woonadres uit de basisregistratie personen (BRP) toevoegen in je IRMA app.\nJe hebt je DigiD daarvoor nodig. \n\nDoorloop de volgende stappen.\n1. Log in met je DigiD bij de gemeente Nijmegen (dit werkt voor iedereen in Nederland, niet alleen voor inwoners van Nijmegen).\n2. De gemeente Nijmegen voegt je gegevens toe in je IRMA-app.\n\nJe ontvangt nu nu twee kaartjes: een kaartje met je woonadres, en automatisch ook een kaartje met je persoonsgegevens.</nl>
+		<de>Wenn Sie in den Niederlanden wohnen, können Sie Ihre Heimatadresse aus dem niederländischen Melderegister (BRP) zu Ihrer IRMA-App hinzufügen. Dazu benötigen Sie Ihren DigiD.\n Führen Sie die folgenden Schritte aus.\n1. Melden Sie sich mit Ihrem DigiD bei der Gemeinde Nijmegen an (sie bietet diesen Service für jeden in den Niederlanden an; Sie müssen nicht in Nijmegen wohnen).\n2. Die Gemeinde Nijmegen kopiert Ihre Daten in Ihre IRMA-App.\n\nSie erhalten nun zwei Karten: eine Karte mit Ihrer Wohnadresse und automatisch auch eine Karte mit Ihren persönlichen Daten.</de>
 	</FAQHowto>
 	<Attributes>
 		<Attribute id="street" displayIndex="0">
 			<Name>
-				<en>Street</en>
-				<nl>Straat</nl>
+				<en>Personal</en>
+				<nl>Persoonlijk</nl>
+				<de>Persönlich</de>
 			</Name>
 			<Description>
-				<en>Your street</en>
-				<nl>Je straat</nl>
+				<en>Personal</en>
+				<nl>Persoonlijk</nl>
+				<de>Persönlich</de>
 			</Description>
 		</Attribute>
 		<Attribute id="houseNumber" optional="true" displayIndex="1">
 			<Name>
 				<en>House number</en>
 				<nl>Huisnummer</nl>
+				<de>Hausnummber</de>
 			</Name>
 			<Description>
-				<en>Your house number, with possible extension</en>
-				<nl>Je huisnummer, met eventuele toevoeging</nl>
+				<en>House number</en>
+				<nl>Huisnummer</nl>
+				<de>Hausnummber</de>
 			</Description>
 		</Attribute>
 		<Attribute id="zipcode" displayIndex="2">
 			<Name>
 				<en>Postal code</en>
 				<nl>Postcode</nl>
+				<de>PLZ</de>
 			</Name>
 			<Description>
 				<en>Your postal code</en>
 				<nl>Je postcode</nl>
+				<de>Ihre Postleitzahl</de>
 			</Description>
 		</Attribute>
 		<Attribute id="municipality" displayIndex="4">
 			<Name>
 				<en>Municipality</en>
 				<nl>Gemeente</nl>
+				<de>Gemeinde</de>
 			</Name>
 			<Description>
 				<en>Your municipality</en>
 				<nl>Je gemeente</nl>
+				<de>Ihre Gemeinde</de>
 			</Description>
 		</Attribute>
 		<Attribute id="city" displayIndex="3">
 			<Name>
 				<en>City</en>
 				<nl>Woonplaats</nl>
+				<de>Wohnort</de>
 			</Name>
 			<Description>
 				<en>Your city of residence</en>
 				<nl>Je woonplaats</nl>
+				<de>Ihr Wohnort</de>
 			</Description>
 		</Attribute>
 	</Attributes>

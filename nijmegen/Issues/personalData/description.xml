@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
 		<en>Personal data</en>
-		<nl>Persoonsgegevens</nl>
+		<nl>Persoonsgegevens</nl><de>Personaldaten</de>
 	</Name>
 	<ShortName>
 		<en>Personal data</en>
-		<nl>Persoonsgegevens</nl>
+		<nl>Persoonsgegevens</nl><de>Personaldaten</de>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>nijmegen</IssuerID>
@@ -25,6 +25,7 @@
 			<Name>
 				<en>Initials</en>
 				<nl>Voorletters</nl>
+				<de>Initialen</de>
 			</Name>
 			<Description>
 				<en>Your initials, abbreviating your first names</en>
@@ -35,20 +36,24 @@
 			<Name>
 				<en>First names</en>
 				<nl>Voornamen</nl>
+				<de>Vorname</de>
 			</Name>
 			<Description>
 				<en>Your first names</en>
 				<nl>Je voornamen</nl>
+				<de>Ihr Vorname</de>
 			</Description>
 		</Attribute>
 		<Attribute id="prefix" optional="true">
 			<Name>
 				<en>Prefix</en>
 				<nl>Voorvoegsel</nl>
+				<de>Präfix</de>
 			</Name>
 			<Description>
 				<en>Prefix of your family name</en>
 				<nl>Voorvoegsel van je achternaam</nl>
+				<de>Der Präfix Ihres Nachnamens</de>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname">
@@ -75,6 +80,7 @@
 			<Name>
 				<en>Full name</en>
 				<nl>Volledige naam</nl>
+				<de>Vollständiger Name</de>
 			</Name>
 			<Description>
 				<en>Your full name</en>
@@ -95,10 +101,12 @@
 			<Name>
 				<en>Gender</en>
 				<nl>Geslacht</nl>
+				<de>Geschlecht</de>
 			</Name>
 			<Description>
 				<en>Your gender</en>
 				<nl>Je geslacht</nl>
+				<de>Ihr Geschlecht</de>
 			</Description>
 		</Attribute>
 		<Attribute id="nationality" optional="true" displayHint="yesno">

@@ -38,6 +38,7 @@
 			<Name>
 				<en>Full name</en>
 				<nl>Volledige naam</nl>
+				<de>Vollständiger Name</de>
 			</Name>
 			<Description>
 				<en>Your full name, as registered by Twitter</en>

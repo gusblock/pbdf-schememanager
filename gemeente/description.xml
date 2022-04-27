@@ -3,10 +3,12 @@
 	<ShortName>
 		<en>Your Municipality</en>
 		<nl>Je Gemeente</nl>
+		<gerIhre Gemeinde</de>
 	</ShortName>
 	<Name>
 		<en>Your Municipality</en>
 		<nl>Je Gemeente</nl>
+		<de>Ihre Gemeinde</de>
 	</Name>
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress>https://www.nijmegen.nl</ContactAddress>

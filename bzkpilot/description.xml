@@ -3,10 +3,12 @@
 	<ShortName>
 		<en>Rijksoverheid Pilot</en>
 		<nl>Rijksoverheid Pilot</nl>
+		<de>Rijksoverheid Pilot</de>
 	</ShortName>
 	<Name>
 		<en>Rijksoverheid Pilot</en>
 		<nl>Rijksoverheid Pilot</nl>
+		<de>Rijksoverheid Pilot</de>
 	</Name>
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress>https://www.rijksoverheid.nl/ministeries/ministerie-van-binnenlandse-zaken-en-koninkrijksrelaties</ContactAddress>

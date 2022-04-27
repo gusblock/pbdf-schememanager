@@ -3,10 +3,12 @@
 	<ShortName>
 		<en>PbDF via SIDN</en>
 		<nl>PbDF via SIDN</nl>
+		<de>PbDF via SIDN</de>
 	</ShortName>
 	<Name>
 		<en>SIDN on behalf of Privacy by Design Foundation</en>
 		<nl>SIDN namens Stichting Privacy by Design</nl>
+		<de>SIDN im Auftrag der Privacy by Design Foundation</de>
 	</Name>
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress>https://www.sidn.nl</ContactAddress>

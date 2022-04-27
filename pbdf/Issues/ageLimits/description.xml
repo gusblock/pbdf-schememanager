@@ -2,10 +2,12 @@
 	<Name>
 		<en>Age</en>
 		<nl>Leeftijd</nl>
+		<en>Alter</en>
 	</Name>
 	<ShortName>
 		<en>Age</en>
 		<nl>Leeftijd</nl>
+		<en>Alter</en>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
@@ -13,11 +15,13 @@
 	<Description>
 		<en>Your age attributes, issued after revealing your birthdate, from your iDIN bank attributes</en>
 		<nl>Je leeftijdsgrenzen zoals berekend uit je geboortedatum, uit je iDIN bank attributen</nl>
+		<en>Ihre Altersattribute, die nach Bekanntgabe Ihres Geburtsdatums aus Ihren iDIN-Bankattributen ausgegeben werden</en>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
 		<en>https://privacybydesign.foundation/uitgifte/idin/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/idin/</nl>
+		<en>https://privacybydesign.foundation/uitgifte/idin/</en>
 	</IssueURL>
 
 	<ForegroundColor>#ffffff</ForegroundColor>
@@ -28,50 +32,61 @@
 			<Name>
 				<en>Over 12</en>
 				<nl>Ouder dan 12</nl>
+				<de>Älter als 12</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 12</en>
 				<nl>Of je ouder dan 12 bent</nl>
+				<de>Ob Sie älter als 12 Jahre sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over16" displayHint="yesno">
 			<Name>
 				<en>Over 16</en>
 				<nl>Ouder dan 16</nl>
+				<de>Älter als 16</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 16</en>
 				<nl>Of je ouder dan 16 bent</nl>
+				<de>Ob Sie älter als 16 sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over18" displayHint="yesno">
 			<Name>
 				<en>Over 18</en>
 				<nl>Ouder dan 18</nl>
+				<de>Älter als 18</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 18</en>
 				<nl>Of je ouder dan 18 bent</nl>
+				<de>Ob Sie älter als 18 sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over21" displayHint="yesno">
 			<Name>
 				<en>Over 21</en>
 				<nl>Ouder dan 21</nl>
+				<de>Älter als 21</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 21</en>
 				<nl>Of je ouder dan 21 bent</nl>
+				<de>Ob Sie älter als 21 sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over65" displayHint="yesno">
 			<Name>
+			<Name>
 				<en>Over 65</en>
 				<nl>Ouder dan 65</nl>
+				<de>Älter als 65</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 65</en>
 				<nl>Of je ouder dan 65 bent</nl>
+				<de>Ob Sie älter als 65 sind</de>
 			</Description>
 		</Attribute>
 	</Attributes>

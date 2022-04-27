@@ -27,6 +27,7 @@
 	<Category>
 		<en>Personal</en>
 		<nl>Persoonlijk</nl>
+		<de>Persönlich</de>
 	</Category>
 	<FAQIntro>
 		<en>Add your personal data from your bank to your IRMA app.</en>
@@ -50,130 +51,157 @@
 			<Name>
 				<en>Initials</en>
 				<nl>Initialen</nl>
+				<de>Initialen</de>
 			</Name>
 			<Description>
 				<en>First letters of your given name(s), as registered at your bank</en>
 				<nl>Je initialen, zoals geregistreerd bij je bank</nl>
+				<de>Ihre Initialen, wie sie bei Ihrer Bank vorliegen</de>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname">
 			<Name>
 				<en>Family name</en>
 				<nl>Achternaam</nl>
+				<de>Nachname</de>
 			</Name>
 			<Description>
 				<en>Your family name, as registered at your bank</en>
 				<nl>Je achternaam, zoals geregistreerd bij je bank</nl>
+				<de>Ihr Nachname, wie bei Ihrer Bank registriert</de>
 			</Description>
 		</Attribute>
 		<Attribute id="dateofbirth">
 			<Name>
 				<en>Date of birth</en>
 				<nl>Geboortedatum</nl>
+				<de>Geburtsdatum</de>
 			</Name>
 			<Description>
 				<en>Your date of birth, as registered at your bank</en>
 				<nl>Je geboortedatum, zoals geregistreerd bij je bank</nl>
+				<de>Ihre Geburtsdatum, wie bei Ihrer Bank registriert</de>
 			</Description>
 		</Attribute>
 		<Attribute id="gender">
 			<Name>
 				<en>Gender</en>
 				<nl>Geslacht</nl>
+				<de>Geschlecht</de>
 			</Name>
 			<Description>
 				<en>Your gender, as registered at your bank</en>
 				<nl>Je geslacht, zoals geregistreerd bij je bank</nl>
+				<de>Ihr Geschlecht, wie bei Ihrer Bank registriert</de>
 			</Description>
 		</Attribute>
 		<Attribute id="address">
 			<Name>
 				<en>Address</en>
 				<nl>Adres</nl>
+				<de>Adresse</de>
 			</Name>
 			<Description>
 				<en>Your address, as registered at your bank</en>
 				<nl>Je adres, zoals geregistreerd bij je bank</nl>
+				<de>Ihre Adresse, wie bei Ihrer Bank registriert</de>
 			</Description>
 		</Attribute>
 		<Attribute id="zipcode">
 			<Name>
 				<en>Postal code</en>
 				<nl>Postcode</nl>
+				<de>Postleitzahl</de>
 			</Name>
 			<Description>
 				<en>Your postal code, as registered at your bank</en>
 				<nl>Je postcode, zoals geregistreerd bij je bank</nl>
+				<de>Ihre Postleitzahl, wie bei Ihrer Bank registriert</de>
 			</Description>
 		</Attribute>
 		<Attribute id="city">
 			<Name>
 				<en>City</en>
 				<nl>Woonplaats</nl>
+				<de>Wohnort</de>
 			</Name>
 			<Description>
 				<en>Your city of residence, as registered at your bank</en>
 				<nl>Je woonplaats, zoals geregistreerd bij je bank</nl>
+				<de>Ihr Wohnort, wie bei Ihrer Bank registriert</de>
 			</Description>
 		</Attribute>
 		<Attribute id="country">
 			<Name>
 				<en>Country</en>
 				<nl>Land</nl>
+				<de>Land</de>
 			</Name>
 			<Description>
 				<en>Your country of residence, as registered at your bank</en>
 				<nl>Het land waar je woont, zoals geregistreerd bij je bank</nl>
+				<de>Ihr Wohnsitzland, wie bei Ihrer Bank registriert</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over12" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 12</en>
 				<nl>Ouder dan 12</nl>
+				<de>Älter als 12</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 12</en>
 				<nl>Of je ouder dan 12 bent</nl>
+				<de>Ob Sie älter als 12 Jahre sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over16" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 16</en>
 				<nl>Ouder dan 16</nl>
+				<de>Älter als 16</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 16</en>
 				<nl>Of je ouder dan 16 bent</nl>
+				<de>Ob Sie älter als 16 sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over18" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 18</en>
 				<nl>Ouder dan 18</nl>
+				<de>Älter als 18</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 18</en>
 				<nl>Of je ouder dan 18 bent</nl>
+				<de>Ob Sie älter als 18 sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over21" optional="true" displayHint="yesno">
 			<Name>
 				<en>Over 21</en>
 				<nl>Ouder dan 21</nl>
+				<de>Älter als 21</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 21</en>
 				<nl>Of je ouder dan 21 bent</nl>
+				<de>Ob Sie älter als 21 sind</de>
 			</Description>
 		</Attribute>
 		<Attribute id="over65" optional="true" displayHint="yesno">
 			<Name>
+			<Name>
 				<en>Over 65</en>
 				<nl>Ouder dan 65</nl>
+				<de>Älter als 65</de>
 			</Name>
 			<Description>
 				<en>Whether you are over 65</en>
 				<nl>Of je ouder dan 65 bent</nl>
+				<de>Ob Sie älter als 65 sind</de>
 			</Description>
 		</Attribute>
 	</Attributes>
